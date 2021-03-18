@@ -1,0 +1,71 @@
+body{
+	background-color: #232323;
+	font-family: 'Lato', sans-serif;
+	margin: 0;   <!-- margin b/w body and elements-->
+}
+
+.square{
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+transition: background 0.4s;
+	border-radius: 10%; <!-- it is for round corners -->
+
+}
+#container{
+	margin: 0 auto; 
+	max-width: 600px;
+}
+h1{
+	color: white;
+	margin: 0;
+	line-height: 1.2;
+	background: steelblue;
+	text-align: center;
+	text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: center;
+}
+.nav{
+	background-color: white; 
+
+	margin-bottom: 0.8%;
+	text-align: center;
+	
+}
+
+.selected{
+	background: steelblue;
+	color: white;
+}
+
+
+#colorDisplay{
+	font-size: 200%; <!-- now it 200% of h1-->
+}
+
+button{
+	border: none;
+	background: none;
+	height: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: steelblue;
+	font-size: inherit;
+	outline: none;
+	transition: all 0.4s; <!-- it is little animation, button respond in 0.4 sec-->
+    }
+
+    button:hover{
+    	background: steelblue;
+    	color: white;
+    }
+ 
+#message{
+	display: inline-block;
+ 	width: 20%;
+ }
